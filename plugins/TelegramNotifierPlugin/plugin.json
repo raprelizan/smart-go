@@ -1,0 +1,10 @@
+{
+  "name": "TelegramNotifierPlugin",
+  "version": "1.0.0",
+  "description": "Sends order notifications to Telegram.",
+  "provider": "Plugins\\TelegramNotifierPlugin\\TelegramNotifierServiceProvider",
+  "permissions": ["orders:read"],
+  "hooks": ["order.created"],
+  "sections": [],
+  "admin_menu": []
+}

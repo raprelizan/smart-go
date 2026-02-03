@@ -1,0 +1,10 @@
+{
+  "name": "WhatsAppNotifierPlugin",
+  "version": "1.0.0",
+  "description": "Sends order notifications via WhatsApp Cloud API.",
+  "provider": "Plugins\\WhatsAppNotifierPlugin\\WhatsAppNotifierServiceProvider",
+  "permissions": ["orders:read"],
+  "hooks": ["order.created"],
+  "sections": [],
+  "admin_menu": []
+}
